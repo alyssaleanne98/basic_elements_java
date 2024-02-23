@@ -19,16 +19,30 @@
 //     }
 // }
 
-import java.util.Scanner;
+// import java.util.Scanner;
+// public class FahrenheitToCelsius {
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+//         System.out.print("Enter a Fahrenheit value ");
+//         int fahrenheit = input.nextInt();
+//         System.out.print("Enter a day of the week: "); 
+//         String day = input.next();
+//         double celsius = (5.0/9) * (fahrenheit - 32);
+//         System.out.println(day + " Fahrenheit: " + fahrenheit);
+//         System.out.println(day + "Celsius: " + celsius);
+//     }
+// }
+
+
+import java.util.*;
 public class FahrenheitToCelsius {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter a Fahrenheit value ");
+        System.out.print("Enter a Fahrenheit value: ");
         int fahrenheit = input.nextInt();
-        System.out.print("Enter a day of the week: "); 
-        String day = input.next();
+        System.out.println();
         double celsius = (5.0/9) * (fahrenheit - 32);
-        System.out.println(day + " Fahrenheit: " + fahrenheit);
-        System.out.println(day + "Celsius: " + celsius);
+        System.out.println("Fahrenheit: " + fahrenheit);
+        System.out.println("Celsius: " + celsius);
     }
 }
