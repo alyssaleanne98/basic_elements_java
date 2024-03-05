@@ -1,6 +1,6 @@
 // Consider the code below 
 
-System.out.printf("%6.2f", 597.7231); 
+// System.out.printf("%6.2f", 597.7231); 
 // What will this code print out?
     // The code uses System.out.printf to format and print a floating-point number, 597.7231, with specific formatting.
     // %6.2f: This indicates a floating-point number (f) with a total width of 6 characters, including both the integer and decimal parts. The number will be displayed with two decimal places.
@@ -14,9 +14,9 @@ System.out.printf("%6.2f", 597.7231);
     // 3. True or False: The Scanner class has a method called nextString that allows an entire line of string text to be read. False 
 
     // 4. Consider the code below: 
-DecimalFormat formatter = new DecimalFormat("0.0%");
-double myNum = .314159;
-System.out.println(formatter.format(myNum));
+// DecimalFormat formatter = new DecimalFormat("0.0%");
+// double myNum = .314159;
+// System.out.println(formatter.format(myNum));
 
 // What will this code print to the console? 
     // 31.4%
